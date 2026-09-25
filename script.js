@@ -1,14 +1,14 @@
 
-    let scrColor = document.getElementById("scrColor");
-    let screen = document.getElementById("screen");
-    let addButton = document.getElementById("add");
-    let buttonContainer =document.getElementById("color-btn")
+    const scrColor = document.getElementById("scrColor");
+    const screen = document.getElementById("screen");
+    const addButton = document.getElementById("add");
+    const buttonContainer =document.getElementById("containerbtn")
 
     let colors = [
         "#10dc91"
         
     ];
-    let counter = 1;
+    
 
 
     scrColor.addEventListener("input", function () {
